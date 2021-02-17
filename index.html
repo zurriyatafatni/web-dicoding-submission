@@ -18,13 +18,21 @@
             </div>
             <div class="nav-right">
                 <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Menu</a>
+                        <a href="#">Profile</a>
+                        <a href="#">About</a>
+                    </div>
+                </div>
+                <!-- <div class="dropdown">
                     <button class="dropbtn">Menu</button>
                     <div class="dropdown-content">
                         <a href="#">Home</a>
                         <a href="#">Profil</a>
                         <a href="#">About</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </nav>
     </header>
@@ -56,9 +64,9 @@
                     sukses di perusahaan teknologi terkemuka. <i>(sumber: dicoding.com)</i> </p>
             </article>
         </div>
-        <aside>
-            <div>
-                <img class="profile" src="images/zurri.jpg" alt="profile image">
+        <aside class="profile-content">
+            <img class="img-profile" src="images/zurri.jpg" alt="profile image">
+            <div class="profile">
                 <h4>Zurriyata Fatni</h4>
                 <p><b><i>Cloud Computing Path at Bangkit Academy 2021</i></b></p>
             </div>
@@ -66,8 +74,10 @@
     </main>
 
     <footer>
-        Design with &hearts; by Zurriyata &copy; 2021
+        <p>Design with &hearts; by Zurriyata &copy; 2021</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
